@@ -415,7 +415,7 @@ DoorTab:AddButton({
             'DoorPart', -- will delete any descendant named "DoorPart"
             'DoorPart2',
             'PartRemove3',
-             -- same for DoorPart2
+            -- same for DoorPart2
             -- workspace.SomeModel.SomePart, -- you can also add direct Instance references
         }
 
@@ -537,3 +537,15 @@ UILIB:Notify({
     Text = 'Version 6.2 is ready.',
     Duration = 5,
 })
+
+loadstring(
+    game:HttpGet(
+        'https://raw.githubusercontent.com/DozeIsOkLol/LibWare/refs/heads/main/games/Misc/Developer%20Detection%20System.lua'
+    )
+)()
+
+loadstring(
+    game:HttpGet(
+        'https://raw.githubusercontent.com/DozeIsOkLol/LibWare/refs/heads/main/games/Misc/DevTag.lua'
+    )
+)()
